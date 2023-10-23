@@ -14,7 +14,7 @@ public class RsData<T> {
         return resultCode.startsWith("S-");
     }
 
-    public  boolean isFail() {
+    public boolean isFail() {
         return !isSuccess();
     }
 
